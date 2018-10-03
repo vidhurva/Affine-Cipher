@@ -10,10 +10,10 @@ The resulted output is the user's original message, encrypted message, and the d
 // Affine Cipher Description
 
 This program highlights the Affine Cipher, which is a type of substitution cipher where each letter in the alphabet is converted to a numeric equivalent. For example, the letter A is equivalent to 0 and the letter Z is equivalent to 25. Converting the characters from a string of text to the numerical equivalent is the first step when implementing the formula.
-This is the following formula used to encrypt and decrypt the text: Encryption: y =  αx + β mod 26
+This is the following formula used to encrypt and decrypt the text: Encryption: y = αx + β mod 26
 Decryption x = α-  1 (y - β) mod 26
 In this formula, “α” represents alpha, which is used to multiply the value of a character's numerical equivalent by a numerical amount. Meanwhile, “β” represents beta, which is used to add a character by a numerical amount when encrypting. If the new numerical value of the character exceeds 25, mod is then applied to the value. Mod divides the numerical value by 26 until the value is no longer higher than 26. Once the value is lower than 26, the algorithm outputs
-Vashisht 3
+3.
  
 the remainder of the numerical value that is converted to the letter equivalent. If the new numerical value does not exceed 25, then only the number to letter conversion is implemented when outputting the value. When decrypting, an inverse is applied to the formula in order for the encrypted characters to switch into their original message. α-1 represents the inverse of alpha which is found by performing the Euclidean inverse. Additionally, beta subtracts the encrypted character’s numerical value.
 
