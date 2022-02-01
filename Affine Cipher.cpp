@@ -1,4 +1,4 @@
-// Vidhur Vashisht
+// Vidhur V
 
 // Affine Cipher Code
 
